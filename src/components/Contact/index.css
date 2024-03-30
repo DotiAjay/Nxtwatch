@@ -1,0 +1,16 @@
+.headingLight {
+  color: #1e293b;
+  font-family: 'Roboto';
+}
+.headingDark {
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+.contactImg {
+  height: 30px;
+  margin: 10px;
+}
+.contactImgContainer {
+  display: flex;
+  flex-direction: row;
+}

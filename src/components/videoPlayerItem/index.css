@@ -1,0 +1,84 @@
+.mainbg {
+  display: flex;
+  flex-direction: row;
+}
+.light {
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 15vw;
+  padding: 20px;
+}
+.darkTheme {
+  background-color: #231f20;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 15vw;
+  padding: 20px;
+}
+
+.videoDisplayCardLight {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  align-items: center;
+  padding: 20px;
+  height: 100vh;
+}
+.videoDisplayCardDark {
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
+  align-items: center;
+  padding: 20px;
+  height: 100vh;
+}
+.titleLight {
+  color: #231f20;
+  font-size: 'roboto';
+  font-weight: bold;
+}
+.titleDark {
+  color: #231f20;
+  font-size: 'roboto';
+  font-weight: bold;
+}
+.timeCard {
+  display: flex;
+  flex-direction: row;
+}
+.timePara {
+  color: #231f20;
+  margin: 10px;
+}
+.timeParaDark {
+  color: #94a3b8;
+  margin: 10px;
+}
+
+.likebutton {
+  background-color: transparent;
+  border: none;
+  margin: 10px;
+}
+.buttonsCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.Liked {
+  color: #2563eb;
+}
+.unliked {
+  color: #2563eb;
+}
+.profileImg {
+  height: 50px;
+  width: 50px;
+}
+.bottomCard {
+  display: flex;
+  flex-direction: row;
+}

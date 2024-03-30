@@ -1,0 +1,78 @@
+.headerContainerLight {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+.headerContainerDark {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #231f20;
+}
+.logo {
+  height: 50px;
+  width: 200px;
+  padding: 10px;
+}
+.profile {
+  height: 50px;
+  padding-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.themeLightButton {
+  color: #000000;
+  margin-top: 24px;
+}
+.themeDarkButton {
+  color: #ffffff;
+  margin-top: 24px;
+}
+.logoutLight {
+  background-color: transparent;
+  border: 2px solid #3b82f6;
+  color: #3b82f6;
+  padding: 5px;
+  margin: 10px;
+  height: 30px;
+  margin-top: 20px;
+}
+.logoutDark {
+  background-color: transparent;
+  border: 2px solid #e2e8f0;
+  color: #e2e8f0;
+  padding: 5px;
+  margin: 10px;
+  height: 30px;
+  margin-top: 20px;
+}
+.buttonsContainer {
+  display: flex;
+  flex-direction: row;
+  margin-right: 30px;
+}
+.popCard {
+  height: 200px;
+  width: 300px;
+  border-radius: 10px;
+  background-color: #616e7c;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.popButton {
+  margin: 10px;
+  background-color: #3b82f6;
+  color: #ffffff;
+  border: none;
+  border-radius: 2px;
+  padding: 5px;
+}
+.ThemeButton {
+  border: none;
+  background-color: transparent;
+}

@@ -1,0 +1,58 @@
+.mainbg {
+  display: flex;
+  flex-direction: row;
+}
+.light {
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  padding: 20px;
+  width: 30vw;
+}
+.darkTheme {
+  background-color: #231f20;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  padding: 20px;
+  width: 20vw;
+}
+.dispayVideosContainer {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: auto;
+  height: 100vh;
+}
+.dispayVideosContainerLight {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: auto;
+  height: 100vh;
+  background-color: #f9f9f9;
+}
+.dispayVideosContainerDark {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: auto;
+  height: 100vh;
+  background-color: #000000;
+}
+.failureImg {
+  height: 300px;
+  width: 300px;
+}
+.failureCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

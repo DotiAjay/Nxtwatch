@@ -1,0 +1,25 @@
+.listLightItem {
+  color: #181818;
+  border: none;
+  text-decoration: 'none';
+  display: flex;
+  flex-direction: row;
+}
+.listDarkItem {
+  color: #f8fafc;
+  border: none;
+  text-decoration: 'none';
+  display: flex;
+  flex-direction: row;
+}
+.linkLine {
+  text-decoration: none;
+  margin: 10px;
+}
+.icons {
+  margin-right: 20px;
+  margin-top: 5px;
+}
+.siderBg {
+  height: 100vh;
+}
